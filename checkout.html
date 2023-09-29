@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Checkout-Items</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/0c30c3a0ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="topbar">
+        <div id="left-menu">
+          <div id="logo">
+            <a href="./index.html"><span>Shop</span>lane </a>
+          </div>
+          <a href="./index.html">Clothing</a>
+          <a href="./index.html">Accessories</a>
+        </div>
+        <div id="search-wrapper">
+          <i class="fas fa-search" area-hidden="true"></i>
+          <input
+            id="search-box"
+            type="text"
+            name="search"
+            placeholder="Search for Clothing and Accessories"
+          />
+        </div>
+        <div id="right-menu">
+          <div id="cart-wrapper">
+            <p id="cart-count">0</p>
+            <a href="./checkout.html"
+              ><i class="fas fa-shopping-cart" area-hidden="true"></i
+            ></a>
+          </div>
+          <img src="./avatar.jpg" alt="avatar" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="main-section">
+        <h1 id="main-heading">Checkout</h1>
+        <div id="content-wrapper">
+            `<div id="card-list">
+                <h3 class="section-heading">
+                  Total Items:
+                  <span id="item-count">0</span>
+                </h3>
+              
+              </div>
+              <div id="total-price">
+                <h3 class="section-heading">Total Amount</h3>
+                <p>
+                  Amount: Rs
+                  <span id="total-amount">0</span>
+                </p>
+   
+               <a href="./orderplace.html" id="hrefChangeLink"><button id="btn-place-order" onclick="placeOrder()">Place Order</button></a> 
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <img id="edyoda-projects-logo" src="./Edyoda projects.png" alt="Edyoda a Projects Logo">
+
+    <footer>
+      <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="./index.html" class="footer-link">Men Clothing</a>
+        <a href="./index.html" class="footer-link">Women Clothing</a>
+        <a href="./index.html" class="footer-link">Men Accessories</a>
+        <a href="./index.html" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="./index.html" class="footer-link">Home</a>
+        <a href="./index.html" class="footer-link">About</a>
+        <a href="./index.html" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners</p>
+        <a href="./index.html" class="footer-link">Zara</a>
+        <a href="./index.html" class="footer-link">Pantaloons</a>
+        <a href="./index.html" class="footer-link">Levis</a>
+        <a href="./index.html" class="footer-link">UCB</a>
+        <a href="./index.html" class="footer-link">+ Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <a href="./index.html" class="footer-link">Building 101</a>
+        <a href="./index.html" class="footer-link">Central Avenue</a>
+        <a href="./index.html" class="footer-link">LA - 902722</a>
+        <a href="./index.html" class="footer-link">United States</a>
+      </div>
+    </footer>
+
+    <script src="./checkout.js"></script>
+  </body>
+</html>
